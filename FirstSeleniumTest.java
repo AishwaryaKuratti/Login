@@ -13,7 +13,7 @@ public class FirstSeleniumTest {
 		String URL = "https://www.facebook.com";
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Govind\\eclipse-workspace\\seleniumLearningMavenProject\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driv/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
@@ -29,7 +29,7 @@ public class FirstSeleniumTest {
 		String pageTitle = driver.getTitle();
 		System.out.println("We get the Title Like :" +pageTitle);
 		
-		Assert.assertEquals(pageTitle, "Facebook – log in or sign up");
+		Assert.assertEquals(pageTitle, "Facebook ï¿½ log in or sign up");
 		
 		//To Close the Browser
 		driver.close();

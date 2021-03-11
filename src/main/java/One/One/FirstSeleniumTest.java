@@ -13,7 +13,7 @@ public class FirstSeleniumTest {
 		String URL = "https://www.facebook.com";
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aish\\eclipse-workspace\\One\\driv\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driv/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
